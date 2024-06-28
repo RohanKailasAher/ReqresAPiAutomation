@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager" >
+
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/user/IdeaProjects/APIFrameworkProject/src/test/java/TestCases">
+        <classes>
+            <class name="testCases.POSTAPIWithBDD_2"/>
+            <class name="testCases.GETAPIWithBDD_1"/>
+            <class name="testCases.PUTAPIWithBDD_3"/>
+            <class name="testCases.DELETAPIWithBDD_4"/>
+        </classes>
+    </test>
+</suite>
